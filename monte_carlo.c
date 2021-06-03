@@ -51,7 +51,8 @@ float mc_pi(int n){
 
     }
     float d=(float)(c_in/n);
-    return (4*d);
+    float e=(float)(4*d);
+    return (e);
 }
 
 
