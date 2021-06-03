@@ -40,10 +40,11 @@ int main(void) {
 }
 float mc_pi(int n){
     int c_in=0;
+    float a,b,c;
     for(int j=1;j<=n;j++){
-        float a=frandom();
-        float b=frandom();
-        float c=sqrt((a*a)+(b*b));
+         a=frandom();
+         b=frandom();
+         c=sqrt((a*a)+(b*b));
         if(c<=1){
             c_in++;
 
