@@ -29,7 +29,7 @@ float wallis_pi(int i){
      a=4*(j*j);
      b=(a-1);
      c*=(float)(a/b);
-      
+   }
      return (2*c);
-      }
+      
  }
