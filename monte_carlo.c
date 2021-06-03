@@ -50,7 +50,7 @@ float mc_pi(int n){
       else{
         continue;
         }
-     
+    }
     d=(c_in/n);
     e=(4*d);
     return (e);
