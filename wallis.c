@@ -28,9 +28,9 @@ float wallis_pi(int i){
    for(int j=1;j<=i;j++){
      a=4.0*(j*j);
      b=(a-1);
-     c*=(float)(a/b);
+     c*=(a/b);
       }
-     d=(float)(2*c);
+     d=(2*c);
      return (d);
       
  }
