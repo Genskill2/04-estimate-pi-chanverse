@@ -40,7 +40,7 @@ int main(void) {
 }
 float mc_pi(int n){
     int c_in=0;
-    float a,b,c,d,e;
+    float a=0,b=0,c,d,e;
     for(int j=1;j<=n;j++){
         float a=frandom();
          float b=frandom();
