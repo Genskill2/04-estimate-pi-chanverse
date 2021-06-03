@@ -43,15 +43,15 @@ float mc_pi(int n){
     for(int j=1;j<=n;j++){
         float a=frandom();
         float b=frandom();
-        float c=(float)sqrt((a*a)+(b*b));
+        float c=sqrt((a*a)+(b*b));
         if(c<=1){
             c_in++;
 
         }
 
     }
-    float d=(float)(c_in/n);
-    float e=(float)(4*d);
+    float d=(c_in/n);
+    float e=(4*d);
     return (e);
 }
 
